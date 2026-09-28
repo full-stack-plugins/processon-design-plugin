@@ -1,0 +1,55 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "processon-design",
+  "version": "0.2.12",
+  "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+  "author": {
+    "name": "Full Stack Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/full-stack-plugins/processon-design-plugin",
+  "repository": "https://github.com/full-stack-plugins/processon-design-plugin",
+  "license": "Apache-2.0",
+  "keywords": [
+    "processon",
+    "diagram",
+    "mind-map",
+    "infographic",
+    "mcp",
+    "codex"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "ProcessOn Design",
+        "shortDescription": "Design polished, editable ProcessOn diagrams",
+        "longDescription": "Operate ProcessOn from Codex to create professional flowcharts, swimlanes, UML, architecture and ER diagrams, mind maps, timelines, organization charts, and structured infographics with a built-in quality review workflow.",
+        "developerName": "Full Stack Skills / PartMe.AI",
+        "category": "Creativity",
+        "capabilities": [
+          "Interactive",
+          "Read",
+          "Write"
+        ],
+        "websiteURL": "https://smart.processon.com",
+        "privacyPolicyURL": "https://github.com/full-stack-plugins/processon-design-plugin/blob/main/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/full-stack-plugins/processon-design-plugin/blob/main/TERMS.md",
+        "defaultPrompt": [
+          "Create a polished system architecture diagram in ProcessOn",
+          "Turn this workflow into a clear cross-functional swimlane",
+          "Make an editable mind map or infographic from this content"
+        ],
+        "brandColor": "#067BEF",
+        "composerIcon": "./assets/composer-icon.png",
+        "logo": "./assets/official-logo.png",
+        "logoDark": "./assets/official-logo.png",
+        "screenshots": [
+          "./assets/processon-hero.png"
+        ]
+      }
+    },
+    "ai.nanoco.nanoclaw": {
+      "agentName": "ProcessOn Design"
+    }
+  }
+}
