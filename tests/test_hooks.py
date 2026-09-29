@@ -96,26 +96,23 @@ class IntentHookTest(unittest.TestCase):
 
 
 class EnvCheckHookTest(unittest.TestCase):
-    """env_check：SessionStart 环境自述，永远 exit 0。"""
+    """env_check：插件自完整性检查——完好时静默，缺件时一行告警，永远 exit 0。"""
 
     @classmethod
     def setUpClass(cls):
         cls.module = load_hook("env_check")
 
-    def test_reports_readiness_on_the_real_tree(self):
+    def test_intact_tree_is_silent(self):
         code, output = run_main(self.module, json.dumps({"source": "startup"}))
         self.assertEqual(0, code)
-        self.assertIn("ProcessOn 插件环境：", output)
-        self.assertIn("python3: ", output)
-        self.assertIn("ProcessOn MCP proxy: 就绪", output)
-        self.assertIn("ProcessOn 凭据: 首次使用时按 Skill 指引完成登录/令牌配置", output)
+        self.assertEqual("", output)
 
     def test_malformed_input_is_tolerated(self):
         for raw in ("", "not json", "[]"):
             with self.subTest(raw=raw):
                 code, output = run_main(self.module, raw)
                 self.assertEqual(0, code)
-                self.assertIn("ProcessOn 插件环境：", output)
+                self.assertEqual("", output)
 
     def test_reports_missing_proxy_without_failing(self):
         with mock.patch.object(self.module.Path, "is_file", return_value=False):
