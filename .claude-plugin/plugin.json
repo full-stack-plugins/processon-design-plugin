@@ -1,0 +1,12 @@
+{
+  "name": "processon-design",
+  "version": "0.2.12",
+  "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+  "author": {
+    "name": "Full Stack Skills / PartMe.AI",
+    "url": "https://github.com/partme-ai"
+  },
+  "homepage": "https://github.com/full-stack-plugins/processon-design-plugin",
+  "repository": "https://github.com/full-stack-plugins/processon-design-plugin",
+  "license": "Apache-2.0"
+}
