@@ -22,7 +22,7 @@
       "interface": {
         "displayName": "ProcessOn Design",
         "shortDescription": "Design polished, editable ProcessOn diagrams",
-        "logo": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.2.12/assets/official-logo.png"
+        "logo": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.3.0/assets/official-logo.png"
       }
     }
   ]
