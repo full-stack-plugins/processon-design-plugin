@@ -1,0 +1,34 @@
+{
+  "name": "@partme-dsh/processon-design",
+  "version": "0.3.0",
+  "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+  "type": "module",
+  "main": "lib/index.js",
+  "icon": "./icon.png",
+  "exports": {
+    ".": "./lib/index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "cordis.patch.yml",
+    "lib/index.js",
+    "icon.svg",
+    "icon.png",
+    "README.md"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "processon",
+    "diagram",
+    "mind-map",
+    "infographic",
+    "mcp",
+    "codex"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}
