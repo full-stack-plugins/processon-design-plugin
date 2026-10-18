@@ -1,5 +1,5 @@
 {
-  "name": "@partme-dsh/processon-design",
+  "name": "processon-design",
   "version": "0.3.0",
   "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
   "type": "module",
@@ -32,5 +32,6 @@
     "bundle": {
       "patch": "./cordis.patch.yml"
     }
-  }
+  },
+  "private": true
 }
