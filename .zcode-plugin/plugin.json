@@ -1,15 +1,13 @@
 {
   "name": "processon-design",
-  "displayName": "ProcessOn Design",
+  "displayName": "Diagramming · ProcessOn Design",
   "displayName_i18n": {
-    "en": "ProcessOn Design",
-    "zh-CN": "ProcessOn 图表"
+    "en": "Diagramming · ProcessOn Design"
   },
   "version": "0.3.0",
-  "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+  "description": "Editable ProcessOn diagrams with prompt construction and consistency review before and after generation.",
   "description_i18n": {
-    "en": "Create polished, editable ProcessOn diagrams, mind maps, and infographics.",
-    "zh-CN": "创建专业的可编辑 ProcessOn 流程图、思维导图与信息图，内置质量评审工作流。"
+    "en": "Editable ProcessOn diagrams with prompt construction and consistency review before and after generation."
   },
   "author": {
     "name": "Full Stack Skills / PartMe.AI",

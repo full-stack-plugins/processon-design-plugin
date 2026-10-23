@@ -1,7 +1,7 @@
 {
   "name": "partme-ai-processon",
   "interface": {
-    "displayName": "ProcessOn Design"
+    "displayName": "Diagramming · ProcessOn Design"
   },
   "plugins": [
     {
@@ -17,11 +17,11 @@
       },
       "category": "Creativity",
       "version": "0.3.0",
-      "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+      "description": "Editable ProcessOn diagrams with prompt construction and consistency review before and after generation.",
       "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.3.0/assets/official-logo.png",
       "interface": {
-        "displayName": "ProcessOn Design",
-        "shortDescription": "Design polished, editable ProcessOn diagrams",
+        "displayName": "Diagramming · ProcessOn Design",
+        "shortDescription": "Flowcharts, architecture diagrams, mind maps and infographics",
         "logo": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.3.0/assets/official-logo.png"
       }
     }

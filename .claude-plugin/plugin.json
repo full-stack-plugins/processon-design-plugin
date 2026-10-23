@@ -1,7 +1,7 @@
 {
   "name": "processon-design",
   "version": "0.3.0",
-  "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+  "description": "Editable ProcessOn diagrams with prompt construction and consistency review before and after generation.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"

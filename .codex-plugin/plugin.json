@@ -1,7 +1,7 @@
 {
   "name": "processon-design",
-  "version": "0.3.0+codex.20261018",
-  "description": "Create and review editable ProcessOn diagrams, mind maps, and infographics.",
+  "version": "0.3.0",
+  "description": "Editable ProcessOn diagrams with prompt construction and consistency review before and after generation.",
   "author": {
     "name": "Full Stack Skills / PartMe.AI",
     "url": "https://github.com/partme-ai"
@@ -20,8 +20,8 @@
   "skills": "./skills/",
   "mcpServers": "./.mcp.json",
   "interface": {
-    "displayName": "ProcessOn Design",
-    "shortDescription": "Design polished, editable ProcessOn diagrams",
+    "displayName": "Diagramming · ProcessOn Design",
+    "shortDescription": "Flowcharts, architecture diagrams, mind maps and infographics",
     "longDescription": "Operate ProcessOn from Codex to create professional flowcharts, swimlanes, UML, architecture and ER diagrams, mind maps, timelines, organization charts, and structured infographics with a built-in quality review workflow.",
     "developerName": "Full Stack Skills / PartMe.AI",
     "category": "Creativity",
@@ -30,7 +30,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://smart.processon.com",
+    "websiteURL": "https://github.com/full-stack-plugins/processon-design-plugin",
     "privacyPolicyURL": "https://github.com/full-stack-plugins/processon-design-plugin/blob/main/PRIVACY.md",
     "termsOfServiceURL": "https://github.com/full-stack-plugins/processon-design-plugin/blob/main/TERMS.md",
     "defaultPrompt": [
@@ -39,11 +39,12 @@
       "Make an editable mind map or infographic from this content"
     ],
     "brandColor": "#067BEF",
-    "composerIcon": "./assets/composer-icon.png",
+    "composerIcon": "./assets/official-logo.png",
     "logo": "./assets/official-logo.png",
     "logoDark": "./assets/official-logo.png",
     "screenshots": [
       "./assets/processon-hero.png"
-    ]
+    ],
+    "composerIconDark": "./assets/official-logo.png"
   }
 }
