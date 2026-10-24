@@ -1,7 +1,7 @@
 {
   "name": "partme-ai-processon",
   "interface": {
-    "displayName": "ProcessOn Design · Diagramming"
+    "displayName": "ProcessOn（图表绘制）"
   },
   "plugins": [
     {
