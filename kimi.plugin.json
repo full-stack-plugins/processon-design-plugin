@@ -46,5 +46,6 @@
   },
   "description_i18n": {
     "zh-CN": "可编辑的 ProcessOn 图表：生成前构造提示词，生成后做语义与一致性评审。"
-  }
+  },
+  "displayName": "ProcessOn（图表绘制）"
 }
