@@ -1,8 +1,8 @@
 {
   "name": "processon-design",
-  "displayName": "Diagramming · ProcessOn Design",
+  "displayName": "ProcessOn Design · Diagramming",
   "displayName_i18n": {
-    "en": "Diagramming · ProcessOn Design"
+    "en": "ProcessOn Design · Diagramming"
   },
   "version": "0.3.0",
   "description": "Editable ProcessOn diagrams with prompt construction and consistency review before and after generation.",
