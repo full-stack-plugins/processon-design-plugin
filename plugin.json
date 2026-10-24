@@ -21,8 +21,8 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "ProcessOn Design · Diagramming",
-        "shortDescription": "Flowcharts, architecture diagrams, mind maps and infographics",
+        "displayName": "ProcessOn（图表绘制）",
+        "shortDescription": "流程图、架构图、思维导图与信息图",
         "longDescription": "Operate ProcessOn from Codex to create professional flowcharts, swimlanes, UML, architecture and ER diagrams, mind maps, timelines, organization charts, and structured infographics with a built-in quality review workflow.",
         "developerName": "Full Stack Skills / PartMe.AI",
         "category": "Creativity",
