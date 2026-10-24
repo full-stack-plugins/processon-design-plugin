@@ -17,18 +17,19 @@
       },
       "category": "Creativity",
       "version": "0.3.0",
-      "description": "Editable ProcessOn diagrams with prompt construction and consistency review before and after generation.",
+      "description": "可编辑的 ProcessOn 图表：生成前构造提示词，生成后做语义与一致性评审。",
       "icon": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.3.0/assets/official-logo.png",
       "interface": {
-        "displayName": "ProcessOn Design · Diagramming",
-        "shortDescription": "Flowcharts, architecture diagrams, mind maps and infographics",
+        "displayName": "ProcessOn（图表绘制）",
+        "shortDescription": "流程图、架构图、思维导图与信息图",
         "logo": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.3.0/assets/official-logo.png"
       },
       "line": "full-stack",
       "componentTypes": [
         "skills",
         "mcp"
-      ]
+      ],
+      "displayName": "ProcessOn（图表绘制）"
     }
   ]
 }
