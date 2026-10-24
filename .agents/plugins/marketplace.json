@@ -23,7 +23,12 @@
         "displayName": "ProcessOn Design · Diagramming",
         "shortDescription": "Flowcharts, architecture diagrams, mind maps and infographics",
         "logo": "https://cdn.jsdelivr.net/gh/full-stack-plugins/processon-design-plugin@v0.3.0/assets/official-logo.png"
-      }
+      },
+      "line": "full-stack",
+      "componentTypes": [
+        "skills",
+        "mcp"
+      ]
     }
   ]
 }
