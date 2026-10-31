@@ -162,7 +162,7 @@ flowchart LR
 
 ### 从插件市场安装
 
-推荐方式——添加本项目 GitHub 仓库、固定 `main`，然后安装 ProcessOn：
+当前已发布市场版本固定在 `v0.3.1`。下列命令安装该历史版本；本轮 `main` 上的 CI 修复尚未发布到市场，不能把旧 tag 当作包含修复的版本：
 
 ```bash
 codex plugin marketplace add full-stack-plugins/processon-design-plugin --ref v0.3.1
@@ -180,7 +180,7 @@ codex plugin marketplace add https://github.com/full-stack-plugins/processon-des
 
 # 本地克隆，适合开发调试
 git clone https://github.com/full-stack-plugins/processon-design-plugin.git
-codex plugin marketplace add ./partme-processon-plugin
+codex plugin marketplace add ./processon-design-plugin
 ```
 
 验证安装：
