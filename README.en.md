@@ -162,7 +162,7 @@ These are repository-local copies of outputs from the recorded live acceptance r
 
 ### From the plugin marketplace
 
-Recommended — add this GitHub repository, pin `main`, then install ProcessOn:
+The published marketplace release is pinned to `v0.3.1`. The commands below install that earlier release; the CI fixes on `main` have not been published to the marketplace, so the old tag does not contain them:
 
 ```bash
 codex plugin marketplace add full-stack-plugins/processon-design-plugin --ref v0.3.1
@@ -180,7 +180,7 @@ codex plugin marketplace add https://github.com/full-stack-plugins/processon-des
 
 # Local clone for development
 git clone https://github.com/full-stack-plugins/processon-design-plugin.git
-codex plugin marketplace add ./partme-processon-plugin
+codex plugin marketplace add ./processon-design-plugin
 ```
 
 Verify installation:

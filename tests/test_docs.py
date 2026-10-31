@@ -146,7 +146,7 @@ class DocumentationTest(unittest.TestCase):
         commands = (
             f"codex plugin marketplace add full-stack-plugins/processon-design-plugin --ref v{version}",
             f"codex plugin marketplace add https://github.com/full-stack-plugins/processon-design-plugin.git --ref v{version} --sparse .agents/plugins",
-            "codex plugin marketplace add ./partme-processon-plugin",
+            "codex plugin marketplace add ./processon-design-plugin",
             "codex plugin add processon-design@partme-ai-processon",
         )
         for name in ("README.md", "README.en.md"):
