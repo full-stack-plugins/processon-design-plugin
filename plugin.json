@@ -21,8 +21,8 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "ProcessOn（图表绘制）",
-        "shortDescription": "流程图、架构图、思维导图与信息图",
+        "displayName": "ProcessOn Design · Diagramming",
+        "shortDescription": "Flowcharts, architecture diagrams, mind maps and infographics",
         "longDescription": "Operate ProcessOn from Codex to create professional flowcharts, swimlanes, UML, architecture and ER diagrams, mind maps, timelines, organization charts, and structured infographics with a built-in quality review workflow.",
         "developerName": "Full Stack Skills / PartMe.AI",
         "category": "Creativity",
@@ -51,13 +51,15 @@
     },
     "ai.nanoco.nanoclaw": {
       "agentName": "ProcessOn Design"
+    },
+    "ai.partme": {
+      "displayName": "ProcessOn（图表绘制）",
+      "displayName_i18n": {
+        "zh-CN": "ProcessOn（图表绘制）"
+      },
+      "description_i18n": {
+        "zh-CN": "可编辑的 ProcessOn 图表：生成前构造提示词，生成后做语义与一致性评审。"
+      }
     }
-  },
-  "displayName": "ProcessOn（图表绘制）",
-  "displayName_i18n": {
-    "zh-CN": "ProcessOn（图表绘制）"
-  },
-  "description_i18n": {
-    "zh-CN": "可编辑的 ProcessOn 图表：生成前构造提示词，生成后做语义与一致性评审。"
   }
 }
